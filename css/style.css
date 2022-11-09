@@ -1,0 +1,66 @@
+/* ALL COMMON CSS START */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    
+    height: 50px;
+}
+
+/* ALL COMMON CSS END */
+
+#header{
+    /* height:50px; */
+    background-color: red;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    float: left;
+}
+
+.menu{
+    height: 50px;
+    width: 1050px;
+    background-color: teal;
+    text-align: right;
+}
+#apple{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    float: left;
+}
+.menu ul li{
+   display: inline-block;
+  
+}
+.menu ul li a{
+    color: #fff;
+   
+    padding-right: 100px;
+    text-transform: uppercase;
+    line-height: 50px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    color: rgb(226, 43, 43);
+}
